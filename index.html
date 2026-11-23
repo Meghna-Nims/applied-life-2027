@@ -148,7 +148,7 @@
 
                     
 <div class="benefit-item">
-    <img src="images/specialization-icon.png" alt="" width="30" height="30" loading="lazy">
+    <img src="images/research-icon.png" alt="" width="30" height="30" loading="lazy">
     <span>
         <strong>Research-Driven</strong>
         <small>Learning Approach</small>
@@ -692,6 +692,19 @@
   <figcaption>Biochemistry Lab</figcaption>
 </figure>
 
+<figure class="facility-card" data-slot="5"
+  data-category="RESEARCH & LABORATORIES"
+  data-description="A well-equipped Physics Laboratory designed to provide students with hands-on experience in fundamental and advanced principles of physics. The laboratory features specialised instruments and experimental setups for exploring mechanics, optics, electricity, magnetism, electronics and modern physics. It encourages practical learning, scientific observation, analytical thinking and experimental research, helping students connect theoretical concepts with real-world applications.">
+  <img src="images/physics-lab.png" alt="Physics Laboratory" width="450" height="380" loading="lazy">
+  <figcaption>Physics Lab</figcaption>
+</figure>
+
+<figure class="facility-card" data-slot="6"
+  data-category="RESEARCH & LABORATORIES"
+  data-description="A modern Chemistry Laboratory providing a practical learning environment for students to explore chemical principles through experiments, analysis and scientific investigation. Equipped with laboratory workstations, specialised glassware, precision instruments and essential experimental apparatus, the facility supports practical sessions in organic, inorganic and physical chemistry. Students gain hands-on experience in chemical reactions, compound analysis, solution preparation and laboratory techniques while developing research skills, accuracy and safe laboratory practices.">
+  <img src="images/chemistry-lab.png" alt="Chemistry Laboratory" width="450" height="380" loading="lazy">
+  <figcaption>Chemistry Lab</figcaption>
+</figure>
 
       <figure class="facility-card" data-slot="4"
         data-category="CAMPUS INFRASTRUCTURE"
@@ -859,31 +872,49 @@
   </div>
 
   <!-- PREMIUM FACILITY POPUP -->
-  <div class="facility-lightbox" id="facilityLightbox" aria-hidden="true">
+  <div class="facility-lightbox" id="facilityLightbox">
 
     <button class="facility-lightbox-close" type="button" aria-label="Close">
       &times;
     </button>
 
-    <div class="facility-popup">
+    
+<div class="facility-popup">
 
-      <div class="facility-popup-image">
-        <img src="" alt="Facility Image" id="facilityLightboxImage">
-      </div>
+    <!-- Previous Facility -->
+    <button
+        type="button"
+        class="facility-modal-nav facility-modal-prev"
+        aria-label="Previous facility">
+        <i class="bi bi-chevron-left"></i>
+    </button>
 
-      <div class="facility-popup-content">
+    <!-- Next Facility -->
+    <button
+        type="button"
+        class="facility-modal-nav facility-modal-next"
+        aria-label="Next facility">
+        <i class="bi bi-chevron-right"></i>
+    </button>
+
+    <div class="facility-popup-image">
+        <img src="" alt="" id="facilityLightboxImage">
+    </div>
+
+    <div class="facility-popup-content">
         <span class="facility-popup-category" id="facilityPopupCategory">
-          CAMPUS FACILITY
+            CAMPUS FACILITY
         </span>
 
         <h2 id="facilityPopupTitle">Facility Name</h2>
 
         <p id="facilityPopupDescription"></p>
 
-       
-      </div>
-
+        <div class="facility-popup-count" id="facilityPopupCount"></div>
     </div>
+
+</div>
+
   </div>
 
 </section>
@@ -938,432 +969,292 @@
     </div>
 
     <div class="row faculty-row justify-content-center align-items-end g-3 g-lg-4">
-
       <div class="col-6 col-md faculty-col faculty-pos-1 high-faculty">
-        <div class="faculty-card" data-profile="profile-priyanka">
-          <img src="images/priyanka-kaushik.webp" alt="Prof. Priyanka Kaushik" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-01">
+          <img src="images/prof-gireesh-babu-k.png" alt="Prof. Gireesh Babu K" loading="lazy">
           <div class="faculty-info">
-            <h3>PROF. (Dr.) PRIYANKA KAUSHIK</h3>
-            <p>Deputy Director</p>
+            <h3>PROF. GIREESH BABU K</h3>
+            <p>Professor &amp; Principal</p>
             <div class="faculty-achievement">
-              
-              <strong>Post-Doc (Artificial Intelligence) Governor Awardee & Top 2% Stanford University Scientist</strong>
+              <strong>Ph.D &amp; Biotechnology</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-2">
-        <div class="faculty-card" data-profile="profile-kuldeep">
-          <img src="images/kuldeep-rathore.webp" alt="Prof. Kuldeep S Rathore" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-02">
+          <img src="images/dr-neha-jain.png" alt="Dr. Neha Jain" loading="lazy">
           <div class="faculty-info">
-            <h3>PROF. KULDEEP S RATHORE</h3>
-            <p>Professor</p>
+            <h3>DR. NEHA JAIN</h3>
+            <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Research Awardee</strong>
+              <strong>Ph.D &amp; Zoology</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-3">
-        <div class="faculty-card" data-profile="profile-suman">
-          <img src="images/suman-devi.webp" alt="Dr. Suman Devi" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-03">
+          <img src="images/dr-girish-chandra-sharma.png" alt="Dr Girish Chandra Sharma" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. SUMAN DEVI</h3>
+            <h3>DR GIRISH CHANDRA SHARMA</h3>
             <p>Associate Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Linguistics Specialist</strong>
+              <strong>Ph.D &amp; Chemistry</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
-      <!-- <div class="col-6 col-md faculty-col faculty-pos-4">
-        <div class="faculty-card" data-profile="profile-sudheer">
-          <img src="images/sudheer-kumar-sharma.png" alt="Dr. Sudheer Kumar Sharma" loading="lazy">
+      <div class="col-6 col-md faculty-col faculty-pos-4">
+        <div class="faculty-card" data-profile="profile-faculty-04">
+          <img src="images/dr-lovelesh-singh-saini.png" alt="Dr. Lovelesh Singh Saini" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. SUDHEER KUMAR SHARMA</h3>
-            <p>Associate Professor</p>
+            <h3>DR. LOVELESH SINGH SAINI</h3>
+            <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Mathematical Modelling Expert</strong>
+              <strong>Ph.D. &amp; Plant Biotechnology</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
-      </div> -->
-
+      </div>
       <div class="col-6 col-md faculty-col faculty-pos-5">
-        <div class="faculty-card" data-profile="profile-ajay">
-          <img src="images/ajay-sharma.png" alt="Dr. Ajay Sharma" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-05">
+          <img src="images/dr-pooja-singh.png" alt="Dr. Pooja Singh" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. AJAY SHARMA</h3>
-            <p>Associate Professor</p>
+            <h3>DR. POOJA SINGH</h3>
+            <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Research Awardee</strong>
+              <strong>Ph.D &amp; Biological Sciences</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-6">
-        <div class="faculty-card" data-profile="profile-saumya">
-          <img src="images/saumya-das.webp" alt="Dr. Saumya Das" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-06">
+          <img src="images/dr-abhishek-verma.png" alt="Dr. Abhishek Verma" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. SAUMYA DAS</h3>
-            <p>Associate Professor</p>
+            <h3>DR. ABHISHEK VERMA</h3>
+            <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & AI-ML Expert</strong>
+              <strong>Ph.D &amp; Biotechnology</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-7">
-        <div class="faculty-card" data-profile="profile-komal">
-          <img src="images/komal-prasad-sharma.png" alt="Dr. Komal Prasad Sharma" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-07">
+          <img src="images/dr-shailendra-singh.png" alt="Dr. Shailendra Singh" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. KOMAL PRASAD SHARMA</h3>
-            <p>Associate Professor</p>
+            <h3>DR. SHAILENDRA SINGH</h3>
+            <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & CSIR NET Qualified</strong>
+              <strong>Ph.D &amp; Biotechnology</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-8">
-        <div class="faculty-card" data-profile="profile-alok">
-          <img src="images/alok-singh-sengar.png" alt="Dr. Alok Singh Sengar" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-08">
+          <img src="images/dr-devesh-kumar-joshi.png" alt="Dr Devesh Kumar Joshi" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. ALOK SINGH SENGAR</h3>
-            <p>Associate Professor</p>
+            <h3>DR DEVESH KUMAR JOSHI</h3>
+            <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Data Science Expert</strong>
+              <strong>Ph.D &amp; Biochemistry</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-9">
-        <div class="faculty-card" data-profile="profile-anil">
-          <img src="images/anil-kumar.png" alt="Dr. Anil Kumar" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-09">
+          <img src="images/dr-sonalika-singh.png" alt="Dr Sonalika Singh" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. ANIL KUMAR</h3>
+            <h3>DR SONALIKA SINGH</h3>
             <p>Associate Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Lifetime Member of SMRS, ISCA & AMRS</strong>
+              <strong>Ph.D &amp; Zoology</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-10">
-        <div class="faculty-card" data-profile="profile-neeraj">
-          <img src="images/neeraj-kumar.webp" alt="Dr. Neeraj Kumar" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-10">
+          <img src="images/dr-upma-singh.png" alt="Dr Upma Singh" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. NEERAJ KUMAR</h3>
+            <h3>DR UPMA SINGH</h3>
             <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Young Research Awardee</strong>
+              <strong>PhD &amp; Microbial Genomics</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-11">
-        <div class="faculty-card" data-profile="profile-akash">
-          <img src="images/akash.png" alt="Er. Akash" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-11">
+          <img src="images/dr-chandrima-mandal.png" alt="Dr Chandrima Mandal" loading="lazy">
           <div class="faculty-info">
-            <h3>ER. AKASH</h3>
+            <h3>DR CHANDRIMA MANDAL</h3>
             <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Global Certified Instructor of EC-Council & CISCO for Cyber Security</strong>
+              <strong>PhD &amp; Food Science and Technology</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-12">
-        <div class="faculty-card" data-profile="profile-krishna-veer">
-          <img src="images/krishna-veer-singh-gurjar.webp" alt="Krishna Veer Singh Gurjar" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-12">
+          <img src="images/dr-irshad-ahmad-shah.png" alt="Dr Irshad Ahmad Shah" loading="lazy">
           <div class="faculty-info">
-            <h3>KRISHNA VEER SINGH GURJAR</h3>
+            <h3>DR IRSHAD AHMAD SHAH</h3>
             <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Robotics Expert</strong>
+              <strong>PhD &amp; Food Science and Technology</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-13">
-        <div class="faculty-card" data-profile="profile-harish">
-          <img src="images/harish-kumar.webp" alt="Dr. Harish Kumar" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-13">
+          <img src="images/dr-nidhi-mahavar.png" alt="Dr Nidhi Mahavar" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. HARISH KUMAR</h3>
+            <h3>DR NIDHI MAHAVAR</h3>
             <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Nuclear Physics Expert</strong>
+              <strong>PhD &amp; Chemistry</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-14">
-        <div class="faculty-card" data-profile="profile-mukesh">
-          <img src="images/mukesh-kumari.png" alt="Dr. Mukesh Kumari" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-14">
+          <img src="images/dr-rakshita-sharma.png" alt="Dr Rakshita Sharma" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. MUKESH KUMARI</h3>
+            <h3>DR RAKSHITA SHARMA</h3>
             <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Research Awardee</strong>
+              <strong>PhD &amp; Mathematics</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-15">
-        <div class="faculty-card" data-profile="profile-abhijit">
-          <img src="images/abhijit-ghosh.png" alt="Abhijit Ghosh" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-15">
+          <img src="images/dr-tanvi-taneja.png" alt="Dr. Tanvi Taneja" loading="lazy">
           <div class="faculty-info">
-            <h3>ABHIJIT GHOSH</h3>
+            <h3>DR. TANVI TANEJA</h3>
             <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Post-Doc & Research Awardee</strong>
+              <strong>PhD &amp; Biotechnology</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-16">
-        <div class="faculty-card" data-profile="profile-parth">
-          <img src="images/parth-parmar.webp" alt="Parth Parmar" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-16">
+          <img src="images/dr-alka-rathore.png" alt="Dr Alka Rathore" loading="lazy">
           <div class="faculty-info">
-            <h3>PARTH PARMAR</h3>
+            <h3>DR ALKA RATHORE</h3>
             <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Digital Forensics Expert & Research Awardee</strong>
+              <strong>PhD &amp; Life Science</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-17">
-        <div class="faculty-card" data-profile="profile-mallappa">
-          <img src="images/mallappa.png" alt="Dr. Mallappa" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-17">
+          <img src="images/dr-smriti-yadav.png" alt="Dr. Smriti Yadav" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. MALLAPPA</h3>
+            <h3>DR. SMRITI YADAV</h3>
             <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Organic Chemistry Expert</strong>
+              <strong>Ph.D &amp; Microbiology</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
-      <!-- <div class="col-6 col-md faculty-col faculty-pos-18">
-        <div class="faculty-card" data-profile="profile-anjali">
-          <img src="images/anjali-kumari-garg.png" alt="Dr. Anjali Kumari Garg" loading="lazy">
+      <div class="col-6 col-md faculty-col faculty-pos-18">
+        <div class="faculty-card" data-profile="profile-faculty-18">
+          <img src="images/dr-shobha-kulshrestha.png" alt="Dr Shobha Kulshrestha" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. ANJALI KUMARI GARG</h3>
-            <p>Assistant Professor</p>
+            <h3>DR SHOBHA KULSHRESTHA</h3>
+            <p>Associate Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Research Awardee</strong>
+              <strong>Ph.D, PDF &amp; Physics</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
-      </div> -->
-
+      </div>
       <div class="col-6 col-md faculty-col faculty-pos-19">
-        <div class="faculty-card" data-profile="profile-krishna-prajapati">
-          <img src="images/krishna-prajapati.png" alt="Dr. Krishna Prajapati" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-19">
+          <img src="images/dr-sanjay-sharna.png" alt="Dr Sanjay Sharna" loading="lazy">
           <div class="faculty-info">
-            <h3>DR. KRISHNA PRAJAPATI</h3>
+            <h3>DR SANJAY SHARNA</h3>
             <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Material Science Expert</strong>
+              <strong>Ph.D &amp; Mathematics</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-20">
-        <div class="faculty-card" data-profile="profile-satyanand">
-          <img src="images/satyanand-gora.webp" alt="Satyanand Gora" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-20">
+          <img src="images/dr-sushma-kumari-pawar.png" alt="Dr Sushma Kumari Pawar" loading="lazy">
           <div class="faculty-info">
-            <h3>SATYANAND GORA</h3>
+            <h3>DR SUSHMA KUMARI PAWAR</h3>
             <p>Assistant Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>Cognitive Neuroscience and AI Expert</strong>
+              <strong>Ph.D &amp; Plant Biotechnology</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-21">
-        <div class="faculty-card" data-profile="profile-rohit">
-          <img src="images/rohit-solanki.webp" alt="Rohit Solanki" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-21">
+          <img src="images/dr-pramod-kumar.png" alt="Dr Pramod Kumar" loading="lazy">
           <div class="faculty-info">
-            <h3>ROHIT SOLANKI</h3>
-            <p>Assistant Professor</p>
+            <h3>DR PRAMOD KUMAR</h3>
+            <p>Associate Professor</p>
             <div class="faculty-achievement">
-              
-              <strong>AI-ML Expert</strong>
+              <strong>Ph.D. &amp; Food Technology (Dairy chemistry)</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
       <div class="col-6 col-md faculty-col faculty-pos-22">
-        <div class="faculty-card" data-profile="profile-vikram">
-          <img src="images/vikram-singh.webp" alt="Vikram Singh" loading="lazy">
+        <div class="faculty-card" data-profile="profile-faculty-22">
+          <img src="images/dr-mamta-chahar.png" alt="Dr. Mamta Chahar" loading="lazy">
           <div class="faculty-info">
-            <h3>VIKRAM SINGH</h3>
-            <p>Assistant Professor</p>
+            <h3>DR. MAMTA CHAHAR</h3>
+            <p>Associate Professor &amp; HOD</p>
             <div class="faculty-achievement">
-              
-              <strong>Ph.D & Applied Mathematics Expert</strong>
+              <strong>Ph.D. &amp; Chemistry</strong>
             </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
+            <a href="javascript:void(0)" class="faculty-know-more">Click to Know More <i class="bi bi-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
-
-      <div class="col-6 col-md faculty-col faculty-pos-23">
-        <div class="faculty-card" data-profile="profile-karishma">
-          <img src="images/karishma-jain.webp" alt="Dr. Karishma Jain" loading="lazy">
-          <div class="faculty-info">
-            <h3>DR. KARISHMA JAIN</h3>
-            <p>Assistant Professor</p>
-            <div class="faculty-achievement">
-              
-              <strong>Ph.D & Nanotechnology Expert</strong>
-            </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-6 col-md faculty-col faculty-pos-24">
-        <div class="faculty-card" data-profile="profile-ganesh">
-          <img src="images/Ganesh Narayan prajapati.webp" alt="Ganesh Narayan Prajapat" loading="lazy">
-          <div class="faculty-info">
-            <h3>GANESH NARAYAN PRAJAPAT</h3>
-            <p>Assistant Professor</p>
-            <div class="faculty-achievement">
-              
-              <strong>AI-ML Expert</strong>
-            </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-6 col-md faculty-col faculty-pos-25">
-        <div class="faculty-card" data-profile="profile-shivani">
-          <img src="images/shivani-patel.webp" alt="Shivani Patel" loading="lazy">
-          <div class="faculty-info">
-            <h3>SHIVANI PATEL</h3>
-            <p>Assistant Professor</p>
-            <div class="faculty-achievement">
-              
-              <strong>Competitive Programming & Hackathon Specialist</strong>
-            </div>
-            <a href="javascript:void(0)" class="faculty-know-more">
-  Click to Know More <i class="bi bi-arrow-up-right"></i>
-</a>
-          </div>
-        </div>
-      </div>
-
     </div>
 
     <div class="faculty-slider-controls">
@@ -1378,1500 +1269,933 @@
   </div>
 </section>
 
-
-
 <!-- FACULTY PROFILE CONTENT -->
-
 <div class="faculty-profile-data">
-
-  <!-- 01. PROF. PRIYANKA KAUSHIK -->
-  <div id="profile-priyanka" class="faculty-profile">
+  <div id="profile-faculty-01" class="faculty-profile">
     <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/priyanka-kaushik.webp" alt="Prof. Priyanka Kaushik">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/prof-gireesh-babu-k.png" alt="Prof. Gireesh Babu K">
     </div>
     <div class="profile-right">
       <div class="profile-header">
         <div class="profile-name">
-          <h2>Prof. (Dr.) <span>Priyanka Kaushik</span></h2>
-          <p>Deputy Director</p>
+          <h2><span>Prof. Gireesh Babu K</span></h2>
+          <p>Professor &amp; Principal</p>
         </div>
-        
       </div>
       <div class="profile-stats">
-        <div><strong>300+</strong><span>Research Publications</span></div>
-        <div><strong>35</strong><span>Patents</span></div>
-        <div><strong>30×</strong><span>IBM Certifications</span></div>
-        <div><strong>13×</strong><span>Microsoft Azure Certifications</span></div>
+        <div><strong>46</strong><span>Research / Review Publications</span></div>
+        <div><strong>3</strong><span>Books Edited</span></div>
+        <div><strong>2</strong><span>Book Chapters</span></div>
+        <div><strong>3</strong><span>Patents Granted</span></div>
       </div>
       <div class="profile-highlights">
         <div class="highlight-item">
           <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Post-Doc (AI), Ph.D. (CSE), M.Tech, M.Phil, MCA, B.E., CDAC Pune</p></div>
+          <div><h4>Highest Qualification</h4><p>Ph.D</p></div>
         </div>
         <div class="highlight-item">
           <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Artificial Intelligence, Machine Learning, Deep Learning, Cloud Computing, Cybersecurity, Data Science, Explainable AI</p></div>
+          <div><h4>Specialization</h4><p>Biotechnology</p></div>
         </div>
         <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Research Impact</h4><p>Scopus h-index: 27 | Google Scholar h-index: 30 | i10-index: 50</p></div>
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>46 research/review publications, 3 books edited, 2 book chapters and 3 patents granted.</p></div>
         </div>
       </div>
       <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Top 2% Scientist</h4>
-          <p>Stanford University & Elsevier</p>
-          <span>2026</span>
-        </div>
-        <div class="publication-card">
-          <h4>Governor Award</h4>
-          <p>Excellence in Research and Innovation</p>
-        </div>
-        <div class="publication-card">
-          <h4>Asia Intel Facilitator</h4>
-          <p>AI, Deep Learning & Data Science</p>
-        </div>
-        <div class="publication-card">
-          <h4>Professional Certifications</h4>
-          <p>30× IBM | 13× Microsoft Azure</p>
-        </div>
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>46 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>3 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>2 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>3 Patents</p></div>
       </div>
     </div>
   </div>
-
-
-  <!-- 02. PROF. KULDEEP S RATHORE -->
-  <div id="profile-kuldeep" class="faculty-profile">
+  <div id="profile-faculty-02" class="faculty-profile">
     <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/kuldeep-rathore.webp" alt="Prof. Kuldeep S Rathore">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-neha-jain.png" alt="Dr. Neha Jain">
     </div>
     <div class="profile-right">
       <div class="profile-header">
         <div class="profile-name">
-          <h2>Prof. <span>Kuldeep S Rathore</span></h2>
-          <p>Professor</p>
+          <h2><span>Dr. Neha Jain</span></h2>
+          <p>Assistant Professor</p>
         </div>
-        
       </div>
       <div class="profile-stats">
-        <div><strong>76</strong><span>Publications</span></div>
-        <div><strong>03</strong><span>Patents</span></div>
-        <div><strong>23</strong><span>h-index</span></div>
-        <div><strong>40</strong><span>i10-index</span></div>
+        <div><strong>9</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>4</strong><span>Book Chapters</span></div>
+        <div><strong>-</strong><span>Patents Granted</span></div>
       </div>
       <div class="profile-highlights">
         <div class="highlight-item">
           <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
+          <div><h4>Highest Qualification</h4><p>Ph.D</p></div>
         </div>
         <div class="highlight-item">
           <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Nanotechnology, Nanomaterials, Semiconductor Physics, Materials Science, Nanocatalysis and Green Chemistry</p></div>
+          <div><h4>Specialization</h4><p>Zoology</p></div>
         </div>
         <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>20 Years</p></div>
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>9 research/review publications, 0 books edited, 4 book chapters and 0 patents granted.</p></div>
         </div>
       </div>
       <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Research Publications</h4>
-          <p>76 Publications</p>
-          <span>h-index: 23</span>
-        </div>
-        <div class="publication-card">
-          <h4>Research Impact</h4>
-          <p>i10-index: 40</p>
-        </div>
-        <div class="publication-card">
-          <h4>Patents</h4>
-          <p>3 Patents</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Focus</h4>
-          <p>Nanomaterials for Drug Design and Biomedical Applications</p>
-        </div>
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>9 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>4 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>0 Patents</p></div>
       </div>
     </div>
   </div>
-
-
-  <!-- 03. DR. SUMAN DEVI -->
-  <div id="profile-suman" class="faculty-profile">
+  <div id="profile-faculty-03" class="faculty-profile">
     <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/suman-devi.webp" alt="Dr. Suman Devi">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-girish-chandra-sharma.png" alt="Dr Girish Chandra Sharma">
     </div>
     <div class="profile-right">
       <div class="profile-header">
         <div class="profile-name">
-          <h2>Dr. <span>Suman Devi</span></h2>
+          <h2><span>Dr Girish Chandra Sharma</span></h2>
           <p>Associate Professor</p>
         </div>
-        
       </div>
       <div class="profile-stats">
-        <div><strong>06</strong><span>Publications & Patents</span></div>
-        <div><strong>03</strong><span>h-index</span></div>
-        <div><strong>01</strong><span>i10-index</span></div>
-        <div><strong>16</strong><span>Years Experience</span></div>
+        <div><strong>86</strong><span>Research / Review Publications</span></div>
+        <div><strong>1</strong><span>Books Edited</span></div>
+        <div><strong>6</strong><span>Book Chapters</span></div>
+        <div><strong>3</strong><span>Patents Granted</span></div>
       </div>
       <div class="profile-highlights">
         <div class="highlight-item">
           <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
+          <div><h4>Highest Qualification</h4><p>Ph.D</p></div>
         </div>
         <div class="highlight-item">
           <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>English Language and Linguistics</p></div>
+          <div><h4>Specialization</h4><p>Chemistry</p></div>
         </div>
         <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>16 Years</p></div>
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>86 research/review publications, 1 books edited, 6 book chapters and 3 patents granted.</p></div>
         </div>
       </div>
       <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Research Impact</h4>
-          <p>h-index: 03</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Metrics</h4>
-          <p>i10-index: 01</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Output</h4>
-          <p>6 Publications / Patents (as reported)</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Area</h4>
-          <p>English Language and Linguistics</p>
-        </div>
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>86 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>1 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>6 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>3 Patents</p></div>
       </div>
     </div>
   </div>
-
-
-  <!-- 04. DR. SUDHEER KUMAR SHARMA -->
-  <!-- <div id="profile-sudheer" class="faculty-profile">
+  <div id="profile-faculty-04" class="faculty-profile">
     <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/sudheer-kumar-sharma.png" alt="Dr. Sudheer Kumar Sharma">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-lovelesh-singh-saini.png" alt="Dr. Lovelesh Singh Saini">
     </div>
     <div class="profile-right">
       <div class="profile-header">
         <div class="profile-name">
-          <h2>Dr. <span>Sudheer Kumar Sharma</span></h2>
+          <h2><span>Dr. Lovelesh Singh Saini</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>8</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>7</strong><span>Book Chapters</span></div>
+        <div><strong>-</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>Ph.D.</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Plant Biotechnology</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>8 research/review publications, 0 books edited, 7 book chapters and 0 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>8 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>7 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>0 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-05" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-pooja-singh.png" alt="Dr. Pooja Singh">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr. Pooja Singh</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>5</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>1</strong><span>Book Chapters</span></div>
+        <div><strong>-</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>Ph.D</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Biological Sciences</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>5 research/review publications, 0 books edited, 1 book chapters and 0 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>5 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>1 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>0 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-06" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-abhishek-verma.png" alt="Dr. Abhishek Verma">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr. Abhishek Verma</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>3</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>5</strong><span>Book Chapters</span></div>
+        <div><strong>1</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>Ph.D</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Biotechnology</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>3 research/review publications, 0 books edited, 5 book chapters and 1 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>3 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>5 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>1 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-07" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-shailendra-singh.png" alt="Dr. Shailendra Singh">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr. Shailendra Singh</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>30</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>11</strong><span>Book Chapters</span></div>
+        <div><strong>-</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>Ph.D</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Biotechnology</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>30 research/review publications, 0 books edited, 11 book chapters and 0 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>30 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>11 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>0 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-08" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-devesh-kumar-joshi.png" alt="Dr Devesh Kumar Joshi">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr Devesh Kumar Joshi</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>46</strong><span>Research / Review Publications</span></div>
+        <div><strong>1</strong><span>Books Edited</span></div>
+        <div><strong>2</strong><span>Book Chapters</span></div>
+        <div><strong>1</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>Ph.D</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Biochemistry</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>46 research/review publications, 1 books edited, 2 book chapters and 1 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>46 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>1 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>2 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>1 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-09" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-sonalika-singh.png" alt="Dr Sonalika Singh">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr Sonalika Singh</span></h2>
           <p>Associate Professor</p>
         </div>
-        
       </div>
       <div class="profile-stats">
-        <div><strong>05</strong><span>Books Published</span></div>
-        <div><strong>03</strong><span>h-index</span></div>
-        <div><strong>02</strong><span>i10-index</span></div>
-        <div><strong>24</strong><span>Years Experience</span></div>
+        <div><strong>35</strong><span>Research / Review Publications</span></div>
+        <div><strong>2</strong><span>Books Edited</span></div>
+        <div><strong>5</strong><span>Book Chapters</span></div>
+        <div><strong>8</strong><span>Patents Granted</span></div>
       </div>
       <div class="profile-highlights">
         <div class="highlight-item">
           <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
+          <div><h4>Highest Qualification</h4><p>Ph.D</p></div>
         </div>
         <div class="highlight-item">
           <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Mathematical Modelling, Numerical Analysis, Computational Fluid Dynamics and Soft Computing</p></div>
+          <div><h4>Specialization</h4><p>Zoology</p></div>
         </div>
         <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>24 Years</p></div>
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>35 research/review publications, 2 books edited, 5 book chapters and 8 patents granted.</p></div>
         </div>
       </div>
       <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Books Published</h4>
-          <p>Authored and Published</p>
-          <span>05 Books</span>
-        </div>
-        <div class="publication-card">
-          <h4>Research Impact</h4>
-          <p>h-index: 03</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Metrics</h4>
-          <p>i10-index: 02</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Areas</h4>
-          <p>Numerical Analysis & Computational Fluid Dynamics</p>
-        </div>
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>35 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>2 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>5 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>8 Patents</p></div>
       </div>
     </div>
-  </div> -->
-
-
-  <!-- 05. DR. AJAY SHARMA -->
-  <div id="profile-ajay" class="faculty-profile">
+  </div>
+  <div id="profile-faculty-10" class="faculty-profile">
     <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/ajay-sharma.png" alt="Dr. Ajay Sharma">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-upma-singh.png" alt="Dr Upma Singh">
     </div>
     <div class="profile-right">
       <div class="profile-header">
         <div class="profile-name">
-          <h2>Dr. <span>Ajay Sharma</span></h2>
+          <h2><span>Dr Upma Singh</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>10</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>3</strong><span>Book Chapters</span></div>
+        <div><strong>-</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>PhD</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Microbial Genomics</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>10 research/review publications, 0 books edited, 3 book chapters and 0 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>10 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>3 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>0 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-11" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-chandrima-mandal.png" alt="Dr Chandrima Mandal">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr Chandrima Mandal</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>7</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>2</strong><span>Book Chapters</span></div>
+        <div><strong>-</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>PhD</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Food Science and Technology</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>7 research/review publications, 0 books edited, 2 book chapters and 0 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>7 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>2 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>0 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-12" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-irshad-ahmad-shah.png" alt="Dr Irshad Ahmad Shah">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr Irshad Ahmad Shah</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>10</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>-</strong><span>Book Chapters</span></div>
+        <div><strong>-</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>PhD</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Food Science and Technology</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>10 research/review publications, 0 books edited, 0 book chapters and 0 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>10 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>0 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>0 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-13" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-nidhi-mahavar.png" alt="Dr Nidhi Mahavar">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr Nidhi Mahavar</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>1</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>-</strong><span>Book Chapters</span></div>
+        <div><strong>-</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>PhD</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Chemistry</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>1 research/review publications, 0 books edited, 0 book chapters and 0 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>1 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>0 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>0 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-14" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-rakshita-sharma.png" alt="Dr Rakshita Sharma">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr Rakshita Sharma</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>4</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>-</strong><span>Book Chapters</span></div>
+        <div><strong>-</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>PhD</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Mathematics</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>4 research/review publications, 0 books edited, 0 book chapters and 0 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>4 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>0 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>0 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-15" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-tanvi-taneja.png" alt="Dr. Tanvi Taneja">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr. Tanvi Taneja</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>15</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>4</strong><span>Book Chapters</span></div>
+        <div><strong>-</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>PhD</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Biotechnology</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>15 research/review publications, 0 books edited, 4 book chapters and 0 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>15 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>4 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>0 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-16" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-alka-rathore.png" alt="Dr Alka Rathore">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr Alka Rathore</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>1</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>-</strong><span>Book Chapters</span></div>
+        <div><strong>-</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>PhD</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Life Science</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>1 research/review publications, 0 books edited, 0 book chapters and 0 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>1 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>0 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>0 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-17" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-smriti-yadav.png" alt="Dr. Smriti Yadav">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr. Smriti Yadav</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>9</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>7</strong><span>Book Chapters</span></div>
+        <div><strong>-</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>Ph.D</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Microbiology</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>9 research/review publications, 0 books edited, 7 book chapters and 0 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>9 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>7 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>0 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-18" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-shobha-kulshrestha.png" alt="Dr Shobha Kulshrestha">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr Shobha Kulshrestha</span></h2>
           <p>Associate Professor</p>
         </div>
-        
       </div>
       <div class="profile-stats">
-        <div><strong>15+</strong><span>Publications</span></div>
-        <div><strong>05</strong><span>h-index</span></div>
-        <div><strong>04</strong><span>i10-index</span></div>
-        <div><strong>16</strong><span>Years Experience</span></div>
+        <div><strong>20</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>6</strong><span>Book Chapters</span></div>
+        <div><strong>3</strong><span>Patents Granted</span></div>
       </div>
       <div class="profile-highlights">
         <div class="highlight-item">
           <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
+          <div><h4>Highest Qualification</h4><p>Ph.D, PDF</p></div>
         </div>
         <div class="highlight-item">
           <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Mathematical Modelling</p></div>
+          <div><h4>Specialization</h4><p>Physics</p></div>
         </div>
         <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>16 Years</p></div>
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>20 research/review publications, - books edited, 6 book chapters and 3 patents granted.</p></div>
         </div>
       </div>
       <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Research Publications</h4>
-          <p>More than 15 Publications</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Impact</h4>
-          <p>h-index: 05</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Metrics</h4>
-          <p>i10-index: 04</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Area</h4>
-          <p>Mathematical Modelling</p>
-        </div>
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>20 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>- Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>6 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>3 Patents</p></div>
       </div>
     </div>
   </div>
-
-
-  <!-- 06. DR. SAUMYA DAS -->
-  <div id="profile-saumya" class="faculty-profile">
+  <div id="profile-faculty-19" class="faculty-profile">
     <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/saumya-das.webp" alt="Dr. Saumya Das">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-sanjay-sharna.png" alt="Dr Sanjay Sharna">
     </div>
     <div class="profile-right">
       <div class="profile-header">
         <div class="profile-name">
-          <h2>Dr. <span>Saumya Das</span></h2>
+          <h2><span>Dr Sanjay Sharna</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>21</strong><span>Research / Review Publications</span></div>
+        <div><strong>1</strong><span>Books Edited</span></div>
+        <div><strong>1</strong><span>Book Chapters</span></div>
+        <div><strong>5</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>Ph.D</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Mathematics</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>21 research/review publications, 1 books edited, 1 book chapters and 5 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>21 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>1 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>1 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>5 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-20" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-sushma-kumari-pawar.png" alt="Dr Sushma Kumari Pawar">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr Sushma Kumari Pawar</span></h2>
+          <p>Assistant Professor</p>
+        </div>
+      </div>
+      <div class="profile-stats">
+        <div><strong>13</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>1</strong><span>Book Chapters</span></div>
+        <div><strong>1</strong><span>Patents Granted</span></div>
+      </div>
+      <div class="profile-highlights">
+        <div class="highlight-item">
+          <img src="images/qualification-icon.png" alt="qualification icon">
+          <div><h4>Highest Qualification</h4><p>Ph.D</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/specialization-icon.png" alt="specialization icon">
+          <div><h4>Specialization</h4><p>Plant Biotechnology</p></div>
+        </div>
+        <div class="highlight-item">
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>13 research/review publications, 0 books edited, 1 book chapters and 1 patents granted.</p></div>
+        </div>
+      </div>
+      <div class="profile-publications">
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>13 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>1 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>1 Patents</p></div>
+      </div>
+    </div>
+  </div>
+  <div id="profile-faculty-21" class="faculty-profile">
+    <div class="profile-left">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-pramod-kumar.png" alt="Dr Pramod Kumar">
+    </div>
+    <div class="profile-right">
+      <div class="profile-header">
+        <div class="profile-name">
+          <h2><span>Dr Pramod Kumar</span></h2>
           <p>Associate Professor</p>
         </div>
-        
       </div>
       <div class="profile-stats">
-        <div><strong>40</strong><span>Scopus Publications</span></div>
-        <div><strong>17</strong><span>SCIE Publications</span></div>
-        <div><strong>03</strong><span>Patents</span></div>
-        <div><strong>10</strong><span>h-index</span></div>
+        <div><strong>10</strong><span>Research / Review Publications</span></div>
+        <div><strong>-</strong><span>Books Edited</span></div>
+        <div><strong>7</strong><span>Book Chapters</span></div>
+        <div><strong>1</strong><span>Patents Granted</span></div>
       </div>
       <div class="profile-highlights">
         <div class="highlight-item">
           <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D. in Engineering</p></div>
+          <div><h4>Highest Qualification</h4><p>Ph.D.</p></div>
         </div>
         <div class="highlight-item">
           <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Data Science, Explainable AI, Wireless Communication and Communication Device Design</p></div>
+          <div><h4>Specialization</h4><p>Food Technology (Dairy chemistry)</p></div>
         </div>
         <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>19 Years | i10-index: 10</p></div>
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>10 research/review publications, 0 books edited, 7 book chapters and 1 patents granted.</p></div>
         </div>
       </div>
       <div class="profile-publications">
-        <div class="publication-card">
-          <h4>NPTEL Topper</h4>
-          <p>Top 1% Achievement</p>
-        </div>
-        <div class="publication-card">
-          <h4>Young Researcher Award</h4>
-          <p>Research Excellence</p>
-        </div>
-        <div class="publication-card">
-          <h4>Faculty Excellence Award</h4>
-          <p>Academic Recognition</p>
-        </div>
-        <div class="publication-card">
-          <h4>Academic Leadership</h4>
-          <p>IQAC, Assistant Registrar, UBA and Research Coordinator</p>
-        </div>
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>10 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>0 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>7 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>1 Patents</p></div>
       </div>
     </div>
   </div>
-
-
-  <!-- 07. DR. KOMAL PRASAD SHARMA -->
-  <div id="profile-komal" class="faculty-profile">
+  <div id="profile-faculty-22" class="faculty-profile">
     <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/komal-prasad-sharma.png" alt="Dr. Komal Prasad Sharma">
+      <svg aria-hidden="true" class="mentor-portrait-shield" viewBox="0 0 320 400">
+        <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
+      </svg>
+      <img src="images/dr-mamta-chahar.png" alt="Dr. Mamta Chahar">
     </div>
     <div class="profile-right">
       <div class="profile-header">
         <div class="profile-name">
-          <h2>Dr. <span>Komal Prasad Sharma</span></h2>
-          <p>Associate Professor</p>
+          <h2><span>Dr. Mamta Chahar</span></h2>
+          <p>Associate Professor &amp; HOD</p>
         </div>
-        
       </div>
       <div class="profile-stats">
-        <div><strong>15</strong><span>Publications</span></div>
-        <div><strong>03</strong><span>h-index</span></div>
-        <div><strong>20</strong><span>Years Experience</span></div>
-        <div><strong>01</strong><span>CSIR-NET Qualification</span></div>
+        <div><strong>36</strong><span>Research / Review Publications</span></div>
+        <div><strong>2</strong><span>Books Edited</span></div>
+        <div><strong>6</strong><span>Book Chapters</span></div>
+        <div><strong>3</strong><span>Patents Granted</span></div>
       </div>
       <div class="profile-highlights">
         <div class="highlight-item">
           <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
+          <div><h4>Highest Qualification</h4><p>Ph.D.</p></div>
         </div>
         <div class="highlight-item">
           <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Fractional Calculus, Special Functions and Mathematical Modelling</p></div>
+          <div><h4>Specialization</h4><p>Chemistry</p></div>
         </div>
         <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>20 Years</p></div>
+          <img src="images/experience-icon.png" alt="faculty information icon">
+          <div><h4>Research Contributions</h4><p>36 research/review publications, 2 books edited, 6 book chapters and 3 patents granted.</p></div>
         </div>
       </div>
       <div class="profile-publications">
-        <div class="publication-card">
-          <h4>CSIR-NET</h4>
-          <p>Qualified</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Publications</h4>
-          <p>15 Publications</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Impact</h4>
-          <p>h-index: 03</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Focus</h4>
-          <p>Fractional Calculus & Special Functions</p>
-        </div>
+        <div class="publication-card"><h4>Research / Review Publications</h4><p>36 Publications</p></div>
+        <div class="publication-card"><h4>Books Edited</h4><p>2 Books</p></div>
+        <div class="publication-card"><h4>Book Chapters</h4><p>6 Chapters</p></div>
+        <div class="publication-card"><h4>Patents Granted</h4><p>3 Patents</p></div>
       </div>
     </div>
   </div>
-
-
-  <!-- 08. DR. ALOK SINGH SENGAR -->
-  <div id="profile-alok" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/alok-singh-sengar.png" alt="Dr. Alok Singh Sengar">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2>Dr. <span>Alok Singh Sengar</span></h2>
-          <p>Associate Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>16</strong><span>Publications</span></div>
-        <div><strong>02</strong><span>Patents</span></div>
-        <div><strong>07</strong><span>h-index</span></div>
-        <div><strong>03</strong><span>i10-index</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Machine Learning, Data Science and Wireless Body Area Network</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>18 Years</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Best Faculty Award</h4>
-          <p>Noida International University, Greater Noida</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Publication Appreciation</h4>
-          <p>Vivekananda Global University, Jaipur</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Publications</h4>
-          <p>16 Publications</p>
-        </div>
-        <div class="publication-card">
-          <h4>Patents</h4>
-          <p>02 Patents</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 09. DR. ANIL KUMAR -->
-  <div id="profile-anil" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/anil-kumar.png" alt="Dr. Anil Kumar">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2>Dr. <span>Anil Kumar</span></h2>
-          <p>Associate Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>51</strong><span>Publications</span></div>
-        <div><strong>02</strong><span>Granted Patents</span></div>
-        <div><strong>12</strong><span>International Book Chapters</span></div>
-        <div><strong>05</strong><span>Granted Copyrights</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Conducting Polymers, Nanocomposites, Materials Chemistry and EMI Shielding</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Research Impact</h4><p>9.2 Years Post-Ph.D. | h-index: 21 | i10-index: 35</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Research Supervision</h4>
-          <p>5 Ph.D. Scholars Supervised</p>
-        </div>
-        <div class="publication-card">
-          <h4>CSIR-NPL Fellow</h4>
-          <p>New Delhi</p>
-        </div>
-        <div class="publication-card">
-          <h4>DST-JRF Fellow</h4>
-          <p>New Delhi</p>
-        </div>
-        <div class="publication-card">
-          <h4>MHRD-MNIT Fellow</h4>
-          <p>Jaipur | Life Member: SMRS, ISCA and AMRS</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 10. DR. NEERAJ KUMAR -->
-  <div id="profile-neeraj" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/neeraj-kumar.webp" alt="Dr. Neeraj Kumar">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2>Dr. <span>Neeraj Kumar</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>15</strong><span>Publications</span></div>
-        <div><strong>03</strong><span>Patents</span></div>
-        <div><strong>06</strong><span>Book Chapters</span></div>
-        <div><strong>03</strong><span>Ph.D. Supervision</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Nanomaterials, Gas Sensing and Electrochemistry</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Research Impact</h4><p>9 Years | h-index: 10 | i10-index: 10</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Young Researcher Award</h4>
-          <p>University of Toronto, Canada</p>
-          <span>2019</span>
-        </div>
-        <div class="publication-card">
-          <h4>DST INSPIRE Fellow</h4>
-          <p>Research Fellowship</p>
-        </div>
-        <div class="publication-card">
-          <h4>NIF-DST & DRDE Fellow</h4>
-          <p>Research Fellowships</p>
-        </div>
-        <div class="publication-card">
-          <h4>Ministry of AYUSH</h4>
-          <p>Government of India Project Fellow</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 11. ER. AKASH -->
-  <div id="profile-akash" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/akash.png" alt="Er. Akash">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2>Er. <span>Akash</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>30+</strong><span>Global Certifications</span></div>
-        <div><strong>08</strong><span>Years Experience</span></div>
-        <div><strong>02</strong><span>Instructor Certifications</span></div>
-        <div><strong>01</strong><span>Faculty Award 2025</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>M.Tech (CSE), Ph.D. (Cyber Security) Pursuing</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Cyber Security</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>8 Years</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Global Certified Instructor of EC-Council</h4>
-          <p>CISCO for Cyber Security</p>
-        </div>
-        <div class="publication-card">
-          <h4>NIMS Excellence Award</h4>
-          <p>NIMS University</p>
-          <span>2026</span>
-        </div>
-        <div class="publication-card">
-          <h4>Best Faculty Award</h4>
-          <p>Geeta University</p>
-          <span>2025</span>
-        </div>
-        
-        <div class="publication-card">
-          <h4>Cyber Security Certifications</h4>
-          <p>Cisco Instructor | STET-CSE Qualified | Certified Cyber Crime Investigator</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 12. KRISHNA VEER SINGH GURJAR -->
-  <div id="profile-krishna-veer" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/krishna-veer-singh-gurjar.webp" alt="Krishna Veer Singh Gurjar">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2><span>Krishna Veer Singh Gurjar</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>02×</strong><span>Gold Medalist</span></div>
-        <div><strong>03</strong><span>Publications</span></div>
-        <div><strong>02</strong><span>Published Patents</span></div>
-        <div><strong>03</strong><span>h-index</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Soft Robotics and Mechanical Engineering</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>4 Years Teaching Assistant Experience During Ph.D. | i10-index: 1</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Inter-IIT Tech Meet</h4>
-          <p>Consecutive Gold Medalist</p>
-          <span>2 Times</span>
-        </div>
-        <div class="publication-card">
-          <h4>Research Publications</h4>
-          <p>03 Publications</p>
-        </div>
-        <div class="publication-card">
-          <h4>Patents</h4>
-          <p>02 Published Patents</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Impact</h4>
-          <p>h-index: 03 | i10-index: 01</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 13. DR. HARISH KUMAR -->
-  <div id="profile-harish" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/harish-kumar.webp" alt="Dr. Harish Kumar">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2>Dr. <span>Harish Kumar</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>44</strong><span>Journal Publications</span></div>
-        <div><strong>69</strong><span>Conference Papers</span></div>
-        <div><strong>14</strong><span>h-index</span></div>
-        <div><strong>03</strong><span>FDPs Organized</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Experimental Nuclear Physics</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>8 Years Post-Ph.D. | i10-index: 15</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Journal Publications</h4>
-          <p>44 Research Papers</p>
-        </div>
-        <div class="publication-card">
-          <h4>Conference Proceedings</h4>
-          <p>69 Papers</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Impact</h4>
-          <p>h-index: 14 | i10-index: 15</p>
-        </div>
-        <div class="publication-card">
-          <h4>Academic Leadership</h4>
-          <p>Organized 3 FDPs as Convener, Co-convener and Coordinator at NIMS University Rajasthan</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 14. DR. MUKESH KUMARI -->
-  <div id="profile-mukesh" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/mukesh-kumari.png" alt="Dr. Mukesh Kumari">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2>Dr. <span>Mukesh Kumari</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>50</strong><span>Publications</span></div>
-        <div><strong>05</strong><span>Patents</span></div>
-        <div><strong>15</strong><span>h-index</span></div>
-        <div><strong>20</strong><span>i10-index</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Hydrogen Energy and Organic Synthesis</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>10 Years</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Special Recognition Award</h4>
-          <p>Research, NIET, NIMS University Rajasthan</p>
-          <span>2026</span>
-        </div>
-        <div class="publication-card">
-          <h4>Best Faculty Award</h4>
-          <p>NIET, NIMS University Rajasthan</p>
-          <span>2024</span>
-        </div>
-        <div class="publication-card">
-          <h4>Visiting Professor</h4>
-          <p>University of Bordeaux, France</p>
-          <span>2022 & 2023</span>
-        </div>
-        <div class="publication-card">
-          <h4>Research Fellowships</h4>
-          <p>ICTP-TRIL Fellow (2018, 2020) | MNRE-JRF (2010–2013)</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 15. ABHIJIT GHOSH -->
-  <div id="profile-abhijit" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/abhijit-ghosh.png" alt="Abhijit Ghosh">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2><span>Abhijit Ghosh</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>05</strong><span>Publications</span></div>
-        <div><strong>04</strong><span>h-index</span></div>
-        <div><strong>04</strong><span>Years Experience</span></div>
-        <div><strong>01</strong><span>Award Recognition</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Postdoctoral Research</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>RF-Produced Magnetized Plasmas and Physics</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>4 Years</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Poster Presentation Award</h4>
-          <p>PSSI at PLASMA-2015</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Publications</h4>
-          <p>05 Publications</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Impact</h4>
-          <p>h-index: 04</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Area</h4>
-          <p>RF-Produced Magnetized Plasmas</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 16. PARTH PARMAR -->
-  <div id="profile-parth" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/parth-parmar.webp" alt="Parth Parmar">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2><span>Parth Parmar</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>45+</strong><span>Patents</span></div>
-        <div><strong>08</strong><span>Granted Patents</span></div>
-        <div><strong>16</strong><span>Research Articles</span></div>
-        <div><strong>14</strong><span>Global Certifications</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>M.Tech (Cyber Security), Ph.D. Pursuing (Digital Forensics)</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Digital Forensics and Ethical Hacking</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>4 Years</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Patent Portfolio</h4>
-          <p>45+ Patents | 8 Granted</p>
-        </div>
-        <div class="publication-card">
-          <h4>Book Authored</h4>
-          <p>01 Book</p>
-        </div>
-        <div class="publication-card">
-          <h4>Book Chapters</h4>
-          <p>04 Chapters</p>
-        </div>
-        <div class="publication-card">
-          <h4>Professional Recognition</h4>
-          <p>RBI & IB Finalist | Certified Instructor: EC-Council, AWS and Cisco</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 17. DR. MALLAPPA -->
-  <div id="profile-mallappa" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/mallappa.png" alt="Dr. Mallappa">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2>Dr. <span>Mallappa</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>05</strong><span>Publications</span></div>
-        <div><strong>03</strong><span>Patents</span></div>
-        <div><strong>02</strong><span>h-index</span></div>
-        <div><strong>01</strong><span>i10-index</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Organic Synthesis</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>5.8 Years</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>NIMS JRF Fellow</h4>
-          <p>Research Fellowship</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Publications</h4>
-          <p>05 Publications</p>
-        </div>
-        <div class="publication-card">
-          <h4>Patents</h4>
-          <p>03 Patents</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Impact</h4>
-          <p>h-index: 02 | i10-index: 01</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 18. DR. ANJALI KUMARI GARG -->
-  <!-- <div id="profile-anjali" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/anjali-kumari-garg.png" alt="Dr. Anjali Kumari Garg">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2>Dr. <span>Anjali Kumari Garg</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>27</strong><span>Publications</span></div>
-        <div><strong>01</strong><span>Patent</span></div>
-        <div><strong>18</strong><span>h-index</span></div>
-        <div><strong>21</strong><span>i10-index</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Material Science and Nanotechnology</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>1 Year</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Research Publications</h4>
-          <p>27 Publications</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Impact</h4>
-          <p>h-index: 18</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Metrics</h4>
-          <p>i10-index: 21</p>
-        </div>
-        <div class="publication-card">
-          <h4>Patents</h4>
-          <p>01 Patent</p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
-  <!-- 19. DR. KRISHNA PRAJAPATI -->
-  <div id="profile-krishna-prajapati" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/krishna-prajapati.png" alt="Dr. Krishna Prajapati">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2>Dr. <span>Krishna Prajapati</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>06</strong><span>Publications</span></div>
-        <div><strong>04</strong><span>h-index</span></div>
-        <div><strong>02×</strong><span>Presentation Awards</span></div>
-        <div><strong>01</strong><span>University Seed Grant</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D. – IIT BNU</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Materials Science, Piezoceramics and Bioplastics</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>3 Years</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>University Seed Grant</h4>
-          <p>Successfully Secured</p>
-        </div>
-        <div class="publication-card">
-          <h4>Best Oral Presentation</h4>
-          <p>Conference Recognition</p>
-          <span>Twice</span>
-        </div>
-        <div class="publication-card">
-          <h4>Research Publications</h4>
-          <p>06 Publications</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Impact</h4>
-          <p>h-index: 04</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 20. SATYANAND GORA -->
-  <div id="profile-satyanand" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/satyanand-gora.webp" alt="Satyanand Gora">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2><span>Satyanand Gora</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>23</strong><span>h-index</span></div>
-        <div><strong>06</strong><span>Publications</span></div>
-        <div><strong>14+</strong><span>Developer Badges</span></div>
-        <div><strong>06</strong><span>Years Experience</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Master's Degree</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Cognitive Neuroscience, Artificial Intelligence and Applied AI Research</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Research Focus</h4><p>Emotion-Aware Learning, AI Rehabilitation, AI & IoT Sustainability and Digital Agriculture</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Indian Book of Records</h4>
-          <p>Maximum Websites Launched in a Day</p>
-          <span>2022</span>
-        </div>
-        <div class="publication-card">
-          <h4>Keynote Speaker</h4>
-          <p>Google Android Campus Fest</p>
-          <span>2024</span>
-        </div>
-        <div class="publication-card">
-          <h4>NASA Space Apps Challenge</h4>
-          <p>Organizer</p>
-          <span>2024</span>
-        </div>
-        <div class="publication-card">
-          <h4>Web & Conference Projects</h4>
-          <p>ICEWSTEAM, Manipal University Jaipur | Shodh Lab, SGVU</p>
-          <span>2025</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 21. ROHIT SOLANKI -->
-  <div id="profile-rohit" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/rohit-solanki.webp" alt="Rohit Solanki">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2><span>Rohit Solanki</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>03</strong><span>Conference Papers</span></div>
-        <div><strong>3.5</strong><span>Years Experience</span></div>
-        <div><strong>01</strong><span>Hackathon Coordination</span></div>
-        <div><strong>01</strong><span>Ph.D. Pursuing</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D. Pursuing – Manipal University Jaipur</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Artificial Intelligence and Machine Learning</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>3.5 Years</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Conference Papers</h4>
-          <p>03 Published Papers</p>
-        </div>
-        <div class="publication-card">
-          <h4>Hackathon Leadership</h4>
-          <p>Software Development Coordinator</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Area</h4>
-          <p>Artificial Intelligence</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Area</h4>
-          <p>Machine Learning</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 22. VIKRAM SINGH -->
-  <div id="profile-vikram" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/vikram-singh.webp" alt="Vikram Singh">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2><span>Vikram Singh</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>14</strong><span>Publications</span></div>
-        <div><strong>03</strong><span>h-index</span></div>
-        <div><strong>03</strong><span>Years Experience</span></div>
-        <div><strong>01</strong><span>Research Domain</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Applied Mathematics</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>3 Years</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Research Publications</h4>
-          <p>14 Publications</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Impact</h4>
-          <p>h-index: 03</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Area</h4>
-          <p>Applied Mathematics</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 23. DR. KARISHMA JAIN -->
-  <div id="profile-karishma" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/karishma-jain.webp" alt="Dr. Karishma Jain">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2>Dr. <span>Karishma Jain</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>21</strong><span>Scopus Publications</span></div>
-        <div><strong>07</strong><span>Q1 Publications</span></div>
-        <div><strong>06</strong><span>Peer-Reviewed Papers</span></div>
-        <div><strong>12</strong><span>Conference Presentations</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>Ph.D.</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Nanophotocatalyst and Nanotechnology</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Research Impact</h4><p>4 Years | h-index: 05 | i10-index: 04</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Best Oral Presentation</h4>
-          <p>Conference Award</p>
-        </div>
-        <div class="publication-card">
-          <h4>Academic Achievement</h4>
-          <p>93.4% in Class 12 Science (CISCE)</p>
-        </div>
-        <div class="publication-card">
-          <h4>Conference Participation</h4>
-          <p>12 Paper Presentations | 3 Workshops</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Development</h4>
-          <p>7 Scopus Q1 Papers | 1 FDP Participation</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 24. GANESH NARAYAN PRAJAPAT -->
-  <div id="profile-ganesh" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/Ganesh Narayan prajapati.webp" alt="Ganesh Narayan Prajapat">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2><span>Ganesh Narayan Prajapat</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>02</strong><span>Patents</span></div>
-        <div><strong>3.6</strong><span>Years Experience</span></div>
-        <div><strong>01</strong><span>Ph.D. Pursuing</span></div>
-        <div><strong>01</strong><span>Research Domain</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>MCA, Ph.D. Pursuing</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Computer Science and Artificial Intelligence & Machine Learning</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>3.6 Years</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Patents</h4>
-          <p>02 Patents</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Area</h4>
-          <p>Artificial Intelligence & Machine Learning</p>
-        </div>
-        <div class="publication-card">
-          <h4>Qualification</h4>
-          <p>MCA</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research Development</h4>
-          <p>Ph.D. Pursuing</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 25. SHIVANI PATEL -->
-  <div id="profile-shivani" class="faculty-profile">
-    <div class="profile-left">
-  <svg aria-hidden="true" class="mentor-portrait-shield"
-       viewBox="0 0 320 400">
-    <path d="M160 20C112 51 65 67 18 79v115c0 90 53 147 142 190 89-43 142-100 142-190V79C255 67 208 51 160 20Z"></path>
-  </svg>
-      <img src="images/shivani-patel.webp" alt="Shivani Patel">
-    </div>
-    <div class="profile-right">
-      <div class="profile-header">
-        <div class="profile-name">
-          <h2><span>Shivani Patel</span></h2>
-          <p>Assistant Professor</p>
-        </div>
-        
-      </div>
-      <div class="profile-stats">
-        <div><strong>03</strong><span>Years Experience</span></div>
-        <div><strong>MCA</strong><span>Qualification</span></div>
-        <div><strong>CSE</strong><span>Department</span></div>
-        <div><strong>--</strong><span>Research Metrics</span></div>
-      </div>
-      <div class="profile-highlights">
-        <div class="highlight-item">
-          <img src="images/qualification-icon.png" alt="qualification icon">
-          <div><h4>Qualification</h4><p>MCA</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/specialization-icon.png" alt="specialization icon">
-          <div><h4>Specialization</h4><p>Computer Science & Engineering</p></div>
-        </div>
-        <div class="highlight-item">
-          <img src="images/experience-icon.png" alt="experience icon">
-          <div><h4>Experience</h4><p>3 Years</p></div>
-        </div>
-      </div>
-      <div class="profile-publications">
-        <div class="publication-card">
-          <h4>Academic Qualification</h4>
-          <p>Master of Computer Applications</p>
-        </div>
-        <div class="publication-card">
-          <h4>Department</h4>
-          <p>Computer Science & Engineering</p>
-        </div>
-        <div class="publication-card">
-          <h4>Professional Experience</h4>
-          <p>3 Years</p>
-        </div>
-        <div class="publication-card">
-          <h4>Research & Awards</h4>
-          <p>Details not provided</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
 </div>
-
 
 <!-- FACULTY PROFILE MODAL -->
 
@@ -2900,7 +2224,6 @@
 
   </div>
 </div>
-
 
 <!-- faculty end -->
 
@@ -3071,74 +2394,69 @@
 
     <div class="leaders-viewport" id="leadersViewport">
       <div class="leaders-track" id="leadersTrack">
-        <article class="leader-card">
-          <img class="leader-photo" src="images/leader-rohit-prajapati.png" alt="Rohit Prajapati">
-          <!-- <button class="leader-play" aria-label="Play Rohit Prajapati video" data-video="">▶</button> -->
-          <div class="leader-copy">
-            <p>NIMS University bridges industry and academia through impactful HR conclaves, preparing enthusiastic students for successful professional careers.</p>
-            <h3>Rohit Prajapati</h3>
-            <span>Technical Lead</span>
-          </div>
-        </article>
 
         <article class="leader-card">
-          <img class="leader-photo" src="images/leader-vamsi.png" alt="Rohit Prajapati">
-          <!-- <button class="leader-play" aria-label="Play Rohit Prajapati video" data-video="">▶</button> -->
-          <div class="leader-copy">
-            <p>NIMS University enhances industry readiness through interactive sessions on Agile practices, software testing and quality assurance, equipping students with practical insights into software development.</p>
-            <h3>Dr. V. Vamsi Krishna</h3>
-            <span>S-VYASA University, Bengaluru</span>
-          </div>
-        </article>
+  <img class="leader-photo" src="images/prof-anna-dunay.png" alt="Prof. Dr. Anna Dunay">
 
-        <article class="leader-card">
-          <img class="leader-photo" src="images/Ms. Ranjana Singh.png" alt="Dr. Ranjana Singh">
-          
-          <div class="leader-copy">
-            <p>NIMS University fosters innovation and commercialization by transforming creative ideas into impactful solutions through research, entrepreneurship, and industry collaboration.</p>
-            <h3>Ms. Ranjana Singh</h3>
-            <span>K & S Partners, Gurgaon </span>
-          </div>
-        </article>
+  <div class="leader-copy">
+    <p>Shared valuable insights on entrepreneurship, innovation, start-up culture, business opportunities and essential skills for building successful entrepreneurial ventures.</p>
+    <h3>Prof. (Dr.) Anna Dunay</h3>
+    <span>John von Neumann University, Hungary</span>
+  </div>
+</article>
+        
 
-        <article class="leader-card">
-          <img class="leader-photo" src="images/Prof. Raghav Mehra.webp" alt="Prof. Raghav Mehra">
-                    <div class="leader-copy">
-            <p>NIMS University advances AI in healthcare through innovative research, technological integration, and smarter solutions for improved patient care.</p>
-            <h3>Prof. Raghav Mehra</h3>
-            <span>Department of CSE, Chandigarh University</span>
-          </div>
-        </article>
+<article class="leader-card">
+  <img class="leader-photo" src="images/mr-narendra-vikram-singh.png" alt="Mr. Narendra Vikram Singh">
 
-        <article class="leader-card">
-          <img class="leader-photo" src="images/Dr. Shibesh K. J..webp" alt="Rajesh Pal">
-          
-          <div class="leader-copy">
-            <p>NIMS University explores modern cosmology and general relativity through advanced research, uncovering the universe's fundamental laws and mysteries.</p>
-            <h3>Dr. Shibesh K. J.</h3>
-            <span>Founder Director, Pacif Institute of Cosmology and Selfology , Odisha</span>
-          </div>
-        </article>
+  <div class="leader-copy">
+    <p>Shared valuable insights on intellectual property rights, patents, trademarks, copyrights, innovation protection and real-world applications for startups and researchers.</p>
+    <h3>Mr. Narendra Vikram Singh</h3>
+    <span>Global Innovation Strategist, Patent Architect</span>
+  </div>
+</article>
 
-        <article class="leader-card">
-          <img class="leader-photo" src="images/Prof. Anil Kumar.webp" alt="Prof. Anil Kumar">
-          
-          <div class="leader-copy">
-            <p>NIMS University promotes Open Source Intelligence through advanced research, digital investigation techniques, and ethical information analysis.</p>
-            <h3>Prof. Anil Kumar</h3>
-            <span>Professor & Head, Department of CSE, Poornima University, Jaipur </span>
-          </div>
-        </article>
+<article class="leader-card">
+  <img class="leader-photo" src="images/d-mirabile-gattia.png" alt="Prof. Dr. D. Mirabile Gattia">
 
-        <article class="leader-card">
-          <img class="leader-photo" src="images/Prof. Paresh S. Patel.webp" alt="Prof. Paresh S. Patel">
-          
-          <div class="leader-copy">
-            <p>NIMS University explores molecular symmetry through advanced research, understanding molecular structures, and their scientific applications.</p>
-            <h3>Prof. Paresh S. Patel</h3>
-            <span>Professor, Department of Chemistry, Veer Marmad South Gujarat University, Surat, Gujarat </span>
-          </div>
-        </article>
+  <div class="leader-copy">
+    <p>Delivered an insightful guest lecture on materials for hydrogen storage, exploring innovative materials, storage technologies and their role in advancing clean energy solutions.</p>
+    <h3>Prof. (Dr.) D. Mirabile Gattia</h3>
+    <span>Researcher, SSPT-PROMAS MATPRO, ENEA Casaccia Research Centre, Rome, Italy</span>
+  </div>
+</article>
+        
+<article class="leader-card">
+  <img class="leader-photo" src="images/dr-virendra-kumar-yadav.png" alt="Dr. Virendra Kumar Yadav">
+
+  <div class="leader-copy">
+    <p>Shared valuable insights on research writing, paper structure, effective writing strategies and best practices for developing high-quality review papers.</p>
+    <h3>Dr. Virendra Kumar Yadav</h3>
+    <span>Scientist, Marwari University, Gujarat</span>
+  </div>
+</article>
+
+<article class="leader-card">
+  <img class="leader-photo" src="images/dr-lersk-zora.png" alt="Dr. Lersk Zora">
+
+  <div class="leader-copy">
+    <p>Shared valuable insights on Big Data Analytics, Natural Language Processing, emerging business intelligence trends and data-driven decision-making using modern analytical tools.</p>
+    <h3>Dr. Lersk Zora</h3>
+    <span>Associate Professor, Czestochowa University of Technology, Poland</span>
+  </div>
+</article>
+
+
+
+<article class="leader-card">
+  <img class="leader-photo" src="images/advt-narendra-vikram-singh.png" alt="Advt. Narendra Vikram Singh">
+
+  <div class="leader-copy">
+    <p>Shared valuable insights on intellectual property rights, technology transfer, patent protection, innovation and the importance of safeguarding research and creative innovations.</p>
+    <h3>Advt. Narendra Vikram Singh</h3>
+    <span>Head of Department – Patents, NIMS University Rajasthan, Jaipur</span>
+  </div>
+</article>
       </div>
     </div>
   </div>
