@@ -483,9 +483,7 @@
     {title:"International student Testimonial ",id:"9g0P-U6aPtg"},
     {title:"Placement Day Celebration",id:"WezAB606iWI"},
     {title:"Brand Video",id:"z_bOyIGb-Sw"},
-    {title:"Hostel",id:"YqucPQQTRrE"},
     {title:"Hostel Facilities",id:"S-eyw3BJNUA"},
-    {title:"Campus Facilities",id:"o8ykj5UegSc"},
     {title:"Spardha",id:"sEY0gjGODN0"}
   ];
 
