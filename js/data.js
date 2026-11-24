@@ -1,6 +1,19 @@
 
 const founderData = [
-  
+
+  {
+    name: "Aradhaya Roy",
+    course: "B.Tech · Food Technology",
+    highlightTitle: "",
+    highlight: "",
+    highlightUnit: "",
+    company: "Milladhya",
+    description: "A nutrition-focused startup offering 100% millet-based, plant-powered and dairy-free nutritional drinks, promoting healthier and sustainable beverage alternatives.",
+    logo: "images/milladhya-logo.png",
+    portrait: "images/aradhaya-roy.png",
+    logoAlt: "Milladhya Shree Pvt. Ltd. logo"
+  },
+
 {
   course: "B.Tech · Biomedical Engineering",
   highlightTitle: "Valuation",
@@ -26,9 +39,9 @@ const founderData = [
   
 {
   course: "B.Tech · Biotechnology",
-  highlightTitle: "Innovation",
-  highlight: "Air",
-  highlightUnit: "Enhancement",
+  highlightTitle: "",
+  highlight: "",
+  highlightUnit: "",
   company: "UDRAH Industries",
   description: "Developed Airendore, an innovative indoor air enhancement system that filters pollutants and improves air quality in enclosed spaces.",
   logo: "images/udrah-industries-logo.png",
@@ -46,18 +59,7 @@ const founderData = [
   ]
 },
 
-  {
-    name: "Aradhaya Roy",
-    course: "B.Tech · Food Technology",
-    highlightTitle: "IDE Bootcamp",
-    highlight: "1st",
-    highlightUnit: "Position",
-    company: "Milladhya",
-    description: "A nutrition-focused startup offering 100% millet-based, plant-powered and dairy-free nutritional drinks, promoting healthier and sustainable beverage alternatives.",
-    logo: "images/milladhya-logo.png",
-    portrait: "images/aradhaya-roy.png",
-    logoAlt: "Milladhya Shree Pvt. Ltd. logo"
-  },
+  
   
 {
   name: "Parth Narula",
