@@ -420,11 +420,7 @@
   .founder-logo{width:140px;height:45px}
   .founder-portrait{width:72%;right:-7%}
 
-  /* ftu */
-  .dual-degree-title{font-size:40px}
-  .dual-degree-collage>img{height:310px}
-  .degree-feature{gap:18px;padding:10px 15px}
-  .sunshine-students{right:12%;width:70%}
+  
 
 
   /* leaders */
@@ -1103,12 +1099,7 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
-  /* ftu */
-  .dual-degree-section{padding:55px 0}
-  .dual-degree-title{font-size:46px}
-  .dual-degree-collage>img{height:340px}
-  .sunshine-banner{margin:55px 0 35px}
-  .sunshine-students{right:18%;width:60%}
+  
 
   /* programs */
 .programmes-heading img {
@@ -1871,19 +1862,7 @@
   .founder-logo{width:145px;height:45px}
   .founder-portrait{width:72%;right:-7%}
 
-  /* ftu */
-  .dual-degree-section{padding:40px 0}
-  .dual-degree-title{font-size:clamp(36px,7vw,44px)}
-  .dual-degree-title>span::after{width:90px;height:60px}
-  .dual-degree-subtitle{font-size:14px}
-  .dual-degree-collage>img{height:280px}
-  .sunshine-banner{height:110px;margin:55px 0 30px}
-  .sunshine-banner::before{left:-20px;width:32%;height:75px}
-  .sunshine-students{right:15%;width:65%;height:165px}
-  .degree-feature{min-height:75px;gap:15px;padding:10px}
-  .degree-feature-icon{flex-basis:50px;width:50px;height:50px}
-  .degree-feature h4{font-size:16px}
-  .degree-feature p{font-size:13px}
+  
 
   /* programs */
 .programmes-section {
@@ -2994,19 +2973,7 @@
         height: 28px;
         font-size: 14px;
     }
-  /* ftu */
-  .dual-degree-title{font-size:clamp(32px,8.5vw,39px);letter-spacing:.5px}
-  .dual-degree-title>span::after{width:65px;height:48px;margin-left:2px}
-  .dual-degree-collage>img{height:220px}
-  .dual-degree-universities img{width:220px;height:50px}
-  .sunshine-banner{height:95px;margin:50px 0 28px;border-radius:45px}
-  .sunshine-banner h3{font-size:clamp(21px,6vw,30px)}
-  .sunshine-students{right:8%;width:75%;height:145px}
-  .sunshine-banner::before{top:-48px;left:-10px;width:30%;height:65px}
-  .degree-feature{gap:12px;padding:10px 5px}
-  .degree-feature-icon{flex-basis:44px;width:44px;height:44px}
-  .degree-feature h4{font-size:14px;letter-spacing:.6px}
-  .degree-feature p{font-size:12px}
+  
 
   /* programs */
 .programme-card-bottom {
