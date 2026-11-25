@@ -4,7 +4,7 @@ const founderData = [
   {
     name: "Aradhaya Roy",
     course: "B.Tech · Food Technology",
-    highlightTitle: "",
+    highlightTitle: "Founder",
     highlight: "",
     highlightUnit: "",
     company: "Milladhya",
